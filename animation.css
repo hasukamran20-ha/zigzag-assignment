@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.ball {
+    margin-top:230px;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    translate: 340px -113px;
+    animation: heartbeat-animation 5s ease-in 0s infinite forwards normal;
+}
+@keyframes heartbeat-animation {
+     0%{
+        translate: 340px -113px;
+    }
+    20%{
+        translate: 625px -113px;
+    }
+    30%{
+        translate: 647px -170px;
+    }
+    40%{
+        translate: 662px -43px;
+    }
+    50%{
+        translate: 709px -315px;
+    }
+    65%{
+        translate: 753px 40px;
+    }
+    75%{
+        translate: 795px -220px;
+    }
+    85%{
+        translate: 812px -80px;
+    }
+    90%{
+        translate: 832px -115px;
+    }
+    100%{
+        translate: 1040px -115px;
+    }
+    
+}
